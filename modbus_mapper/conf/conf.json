@@ -1,0 +1,7 @@
+{
+    "mqtt_port": {CONNECTOR_MQTT_PORT},
+    "mqtt_ip": "{CONNECTOR_MQTT_IP}",
+    "dpl_name": "{CONNECTOR_DPL_NAME}",
+    "mqtt_qos" : {CONNECTOR_MQTT_QOS},
+    "log_level": "info"
+}
