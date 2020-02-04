@@ -42,7 +42,7 @@ async.series([
                     port: configs.mqtt_port,
                     host: configs.mqtt_ip,
                     dpl_name: configs.dpl_name,
-		    qos: mqqt_qos
+		    qos: configs.mqtt_qos
                 };
                 callback(err);
             }
